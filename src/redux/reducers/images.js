@@ -6,7 +6,7 @@ import {
     INPUT_CHANGE_SUCCESS
 } from "../constants/actionTypes";
 
-const initialState = {
+export const initialState = {
     inputValue: '',
     data: [],
     loading: false,
